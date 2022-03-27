@@ -1,0 +1,24 @@
+modLoader="javafml"
+loaderVersion="[37,)"
+license="All rights reserved"
+[[mods]]
+modId="chests"
+version="${file.jarVersion}"
+displayName="Chest Mod"
+logoFile="examplemod.png"
+credits="Mod by trigi"
+authors="trigi"
+description='''
+A chest counter mod by trigi.'''
+[[dependencies.chests]]
+    modId="forge"
+    mandatory=true
+    versionRange="[37,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.chests]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.17.1,1.18)"
+    ordering="NONE"
+    side="BOTH"
